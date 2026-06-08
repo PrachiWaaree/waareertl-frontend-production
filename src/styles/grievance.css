@@ -1,0 +1,293 @@
+/* About Grievance CSS Start */
+.about_grievance_sec {
+    padding-top: min(7.813vw, 9.375rem);
+    padding-bottom: min(4.688vw, 5.625rem);
+}
+.about_grievance_sec .section_header .heading {
+    margin-bottom: 0.625em;
+}
+.about_grievance_img {
+    width: 100%;
+    max-width: min(36.25vw, 43.5rem);
+    margin-left: min(7.813vw, 9.375rem);
+    border-radius: min(1.042vw, 1.25rem);
+    overflow: hidden;
+}
+.about_grievance_img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .about_grievance_sec .section_header {
+        max-width: 491px;
+        width: min(48vw, 30.6875rem);
+    }
+}
+@media screen and (max-width: 991px) {
+    .about_grievance_sec .section_header {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .about_grievance_img {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+}
+/* About Grievance CSS End */
+
+/* Aaddress Concerns CSS Start */
+.address_concerns_sec {
+    padding-top: min(2.888vw, 5.625rem);
+}
+.address_concerns_sec .section_header .heading {
+    margin-bottom: 0.625em;
+    text-align: center;
+}
+.address_concerns_img {
+    width: 100%;
+    max-width: 1462px;
+    margin: auto;
+}
+.address_concerns_img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+}
+/* Aaddress Concerns CSS End */
+
+/* Grievance Form CSS Start */
+.grievance__form_sec .section_header .heading {
+    margin-top: min(8.8542vw, 10.625rem);
+    margin-bottom: 0.833em;
+}
+.grievance__form_sec::before {
+    content: "";
+    position: absolute;
+    top: 2%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 12.88%,
+        #fff 65.33%
+    );
+}
+
+.grievance__form_sec {
+    position: relative;
+    overflow: hidden;
+    /* padding: min(5.9896vw, 7.1875rem) 0 0; */
+    padding: min(max(50px, 10.4167vw), 12.5rem) 0
+        min(max(30px, 2.6042vw), 3.125rem);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    height: auto;
+    margin-top: min(max(40px, 8.3333vw), 10rem);
+}
+.grievance__form_sec {
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    height: auto;
+    margin-top: min(max(40px, 8.3333vw), 10rem);
+    padding: min(5.9896vw, 7.1875rem) 0 0;
+    position: relative;
+    overflow: hidden;
+    /* background-position: inherit !important;
+    background-size: 100% !important; */
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.grievance__form_sec .section_overlay {
+    content: "";
+    background: linear-gradient(#ffffff36 0%, #fff 32.06%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.grievance__form_sec .custom-container {
+    position: relative;
+    z-index: 1;
+}
+.grievance__form {
+    margin-left: auto;
+    margin-right: auto;
+}
+.grievance__form .row:last-child .col-12 {
+    text-align: center;
+    margin-top: min(2.344vw, 2.8125rem);
+}
+
+.grievance__form_sec .section_header {
+    padding-right: 0;
+}
+.grievance__form .icon-calendar {
+    /* background-image: url(../images/grievance/grievance-form-icon.webp); */
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: min(1.667vw, 2rem);
+}
+.date-picker-wrapper {
+    position: relative;
+}
+.date-picker-wrapper img {
+    position: absolute;
+    right: 9px;
+    top: 47%;
+    width: 20px;
+    height: auto;
+    transform: translateY(-50%);
+    pointer-events: none;
+    cursor: pointer;
+}
+.grievance__form_sec .cta__form {
+    width: min(47.344vw, 56.813rem);
+    max-width: 56.813rem;
+    margin-bottom: 0px;
+}
+.error-message {
+    margin: 0 auto 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* start date code */
+.react-datepicker__month-container {
+    z-index: 9;
+    position: relative;
+    overflow: visible;
+}
+.custom-datepicker .react-datepicker__header {
+    background: #0db02b2e;
+}
+
+.react-datepicker__header__dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    column-gap: 10px;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.react-datepicker__month-dropdown-container {
+    width: 100%;
+    margin: 0;
+}
+
+.react-datepicker__month-dropdown-container select {
+    width: 100%;
+    border: 1px solid #5b5b5b40;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.react-datepicker__year-dropdown-container {
+    width: 100%;
+    margin: 0;
+}
+
+.react-datepicker__year-dropdown-container select {
+    width: 100%;
+    border: 1px solid #5b5b5b40;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.react-datepicker__header {
+    background: #0db02b2e;
+}
+
+.react-datepicker__day:not([aria-disabled="true"]):hover,
+.react-datepicker__month-text:not([aria-disabled="true"]):hover,
+.react-datepicker__quarter-text:not([aria-disabled="true"]):hover,
+.react-datepicker__year-text:not([aria-disabled="true"]):hover {
+    background-color: #d3f1d9;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    background-color: var(--theme-primary);
+    color: var(--theme-white);
+}
+.react-datepicker__day:not([aria-disabled="true"]):hover, .react-datepicker__month-text:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text:not([aria-disabled="true"]):hover, .react-datepicker__year-text:not([aria-disabled="true"]):hover {
+    background-color: var(--theme-primary);
+    color: var(--theme-white);
+}
+/* end date code */
+
+@media screen and (max-width: 1199px) {
+    .grievance__form {
+        width: 60%;
+    }
+    .grievance__form .icon-calendar {
+        background-position: 96%;
+        background-size: min(2.667vw, 2rem);
+    }
+}
+@media screen and (max-width: 991px) {
+    .grievance__form {
+        width: 90%;
+    }
+    .grievance__form_sec .cta__form {
+        max-width: 90%;
+    }
+
+    .grievance__form_sec .form-field {
+        margin-bottom: 20px;
+    }
+
+    .date-picker-wrapper img {
+        width: 25px;
+        top: 34%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .grievance__form {
+        width: 100%;
+    }
+    .grievance__form .icon-calendar {
+        background-size: min(5.667vw, 2rem);
+    }
+
+    .grievance__form_sec .cta__form {
+        margin-bottom: 0;
+    }
+
+    /* .grievance__form_sec{
+    padding: 20px 0px 0;
+} */
+
+    .grievance__form_sec .section_overlay {
+        height: 112%;
+        top: -12%;
+    }
+
+    .grievance__form_sec .form-field {
+        margin-bottom: 10px;
+    }
+
+    .date-picker-wrapper img {
+        width: 25px;
+        top: 41%;
+    }
+}
+/* Grievance Form CSS End */

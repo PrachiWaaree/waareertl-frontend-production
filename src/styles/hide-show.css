@@ -1,0 +1,8 @@
+/* product page start */
+.common__space {
+    padding-top: min(max(3.125rem, 5.208vw), 6.25rem);
+}
+.banner__space {
+    min-height: 130px;
+}
+/* product page end */
