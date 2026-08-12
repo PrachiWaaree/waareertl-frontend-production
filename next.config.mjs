@@ -420,6 +420,36 @@ const nextConfig = {
                 destination: "/blogs",
                 permanent: true,
             },
+            {
+                source: "/ground-mounted-solar",
+                destination: "/energy-generation/utility",
+                permanent: true,
+            },
+            {
+                source: "/rooftop-solar",
+                destination: "/energy-generation/commercial-and-industrial-roof-top",
+                permanent: true,
+            },
+            {
+                source: "/operations-maintenance",
+                destination: "/energy-generation/asset-management",
+                permanent: true,
+            },
+            {
+                source: "/our-projects",
+                destination: "/our-project",
+                permanent: true,
+            },
+            {
+                source: "/floating-solar",
+                destination: "/energy-generation/floating-solar",
+                permanent: true,
+            },
+            {
+                source: "/green-hydrogen-as-the-future-of-solar-powered-energy-storage",
+                destination: "/blog/green-hydrogen-as-the-future-of-solar-powered-energy-storage",
+                permanent: true,
+            },
         ];
     },
 
