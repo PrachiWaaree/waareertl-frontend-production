@@ -37,6 +37,7 @@ import "@/styles/our-project.css";
 import "@/styles/grievance.css";
 import "@/styles/solution-details.css";
 import "@/styles/hide-show.css";
+import "@/styles/video-proceedings.css";
 import { primaryFont } from "@/theme";
 import { getMetaData, getMetaDetailsAPI } from "@/lib";
 import { HTMLScriptInjector } from "@/components";

@@ -143,6 +143,7 @@ import {
     InvestorPageListing,
     InvestorDiscloser,
     HomePageWaareeStocks,
+    VideoProceedings,
 } from "@/views";
 
 import { SolutionDetailPageRelatedSection } from "@/views/pages/solution-detail/related_solution";
@@ -622,6 +623,11 @@ export const ALL_SECTIONS = {
     ),
     ["stocks"]: (data, slug) => (
         <HomePageWaareeStocks data={data} slug={slug} />
+    ),
+
+    // Investor video proceedings — earnings calls, AGMs, investor meets
+    ["video_proceedings"]: (data, slug) => (
+        <VideoProceedings data={data} slug={slug} />
     ),
 };
 
