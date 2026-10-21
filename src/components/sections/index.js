@@ -629,5 +629,9 @@ export const ALL_SECTIONS = {
     ["video_proceedings"]: (data, slug) => (
         <VideoProceedings data={data} slug={slug} />
     ),
+    // The RTL admin saved the content type slug with a hyphen.
+    ["video-proceedings"]: (data, slug) => (
+        <VideoProceedings data={data} slug={slug} />
+    ),
 };
 
